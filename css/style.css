@@ -1,0 +1,147 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    overflow-x:hidden ;
+}
+
+ul{
+    list-style: none;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #741ce8 !important;
+}
+
+.nav-link {
+    display: flex;
+    color:#fff;
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.8rem;
+}
+
+.navbar .fas{
+    color:#ffff;
+}
+
+.navbar-brand{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+
+.hero-body{
+    margin-top: 14rem;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-body h1,
+span,
+.about-me h1,
+.skills h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-body p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:2rem;
+}
+
+
+.fade-in{
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.about-me p{
+    font-family: 'PT Sans', sans-serif;
+    line-height: 1.8;
+    font-size: 1.4rem;
+}
+
+.about-me{
+    background-image: linear-gradient(to right, #741ce8, #9166c9);
+    color: #fff;
+}
+
+
+.icons{
+    color:#741ce8;
+    font-size: 5rem;
+}
+
+
+.address{
+    display:flex;
+    background-color: #741ce8;
+    flex-direction: column;
+}
+.address ul{
+    list-style: none;
+}
+
+.address .fas{
+    font-size: 1.2rem;
+}
+
+.btn{
+    border: none;
+    border-radius: 25px;
+    background-color: #741ce8;
+}
+
+
+.card{
+    height: 40vh;
+    background-color: #741ce8;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.form-control{
+    border: none;
+    border-bottom: 1px solid;
+    border-color: #741ce8;
+}
+
+intput:active,input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+#footer{
+    background-color: #741ce8;
+}
